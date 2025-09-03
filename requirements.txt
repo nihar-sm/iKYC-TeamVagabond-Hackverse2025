@@ -1,9 +1,11 @@
-﻿opencv-python==4.8.1.78
-mediapipe==0.10.5
+﻿opencv-python
+mediapipe
 jaxlib
 numpy
 pandas
 flask
-fastapi
 streamlit
-# Add other packages your project uses
+tensorflow
+scikit-learn
+pillow
+# Add other packages your iKYC project needs
