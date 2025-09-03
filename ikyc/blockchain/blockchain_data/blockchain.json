@@ -1,0 +1,59 @@
+{
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": 1756409225.0064807,
+      "previous_hash": "0",
+      "nonce": 280,
+      "hash": "00d9fe45300eccb9148a4bc9ba7f24d2a56bd37f54540156fdab234ed73c3155",
+      "transactions": []
+    },
+    {
+      "index": 1,
+      "timestamp": 1756409270.9662194,
+      "previous_hash": "00d9fe45300eccb9148a4bc9ba7f24d2a56bd37f54540156fdab234ed73c3155",
+      "nonce": 452,
+      "hash": "00a577e4b761c8d59b00bafb3f735ea579e62abc28161d54938923810af20933",
+      "transactions": [
+        {
+          "sender": "Bank_A",
+          "recipient": "KYC_REGISTRY",
+          "payload": {
+            "type": "KYC_CREDENTIAL",
+            "verification_level": "CDD",
+            "proof_id": "c1a9aebf044f14d2",
+            "commitment_hash": "59022e994b9fdcf1f86ce847c249b95590a4cb29aefc714b3e1c78e1ec5516f8",
+            "public_claims": {
+              "verification_level": "CDD",
+              "issuing_institution": "Bank_A",
+              "verification_completed": true,
+              "meets_compliance": true,
+              "timestamp": 1756409266.8549316
+            }
+          },
+          "timestamp": 1756409266.8809075,
+          "signature": "",
+          "tx_hash": "b838c950d165c8c7f9ea949aa6d54f0c8c0e8fe1678b5c34275c203a6a6a808d"
+        },
+        {
+          "sender": "Bank_B",
+          "recipient": "Customer_456",
+          "payload": {
+            "type": "ACCOUNT_OPENING",
+            "account_type": "SAVINGS",
+            "initial_deposit": 1000
+          },
+          "timestamp": 1756409268.9266171,
+          "signature": "",
+          "tx_hash": "67cd9c7e6bda119dba57395a4faab3308d02ddc6e2f0b405684f93dc305df4db"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "total_blocks": 2,
+    "difficulty": 2,
+    "saved_at": "2025-08-29T00:58:03.864075",
+    "last_block_hash": "00a577e4b761c8d59b00bafb3f735ea579e62abc28161d54938923810af20933"
+  }
+}
