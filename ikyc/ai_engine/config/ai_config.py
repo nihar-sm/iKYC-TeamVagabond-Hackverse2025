@@ -9,7 +9,7 @@ class AIConfig:
     """Configuration for AI services"""
 
     # IBM Watson Configuration (Keep existing)
-    IBM_WATSON_API_KEY = os.getenv('IBM_WATSON_API_KEY', 'RNe_5QO_GI79hw1677ol-MtYEsJX6i16yNKfCFRzA2QI')
+    IBM_WATSON_API_KEY = os.getenv('IBM_WATSON_API_KEY', 'your_ibm_watson_api_key')
     IBM_WATSON_URL = os.getenv('IBM_WATSON_URL', 'https://api.us-south.watson.cloud.ibm.com')
     IBM_WATSON_VERSION = '2021-05-13'
     
@@ -18,16 +18,16 @@ class AIConfig:
     IBM_NLU_URL = 'https://api.us-south.natural-language-understanding.watson.cloud.ibm.com'
 
     # IBM Granite Configuration (Keep existing)
-    IBM_GRANITE_API_KEY = os.getenv('IBM_GRANITE_API_KEY', 'RNe_5QO_GI79hw1677ol-MtYEsJX6i16yNKfCFRzA2QI')
-    IBM_PROJECT_ID = os.getenv('IBM_PROJECT_ID', '942e8fb2-25d6-4f82-bec9-d16e62de5433')
+    IBM_GRANITE_API_KEY = os.getenv('IBM_GRANITE_API_KEY', 'your_ibm_granite_api_key')
+    IBM_PROJECT_ID = os.getenv('IBM_PROJECT_ID', 'your_ibm_project_id')
     IBM_GRANITE_13B_MODEL = 'ibm/granite-13b-instruct-v2'
     IBM_GRANITE_20B_MODEL = 'ibm/granite-20b-multilingual'
     IBM_WATSONX_URL = 'https://us-south.ml.cloud.ibm.com/ml/v1'
 
     # AWS Bedrock Configuration (UPDATED FOR NOVA MODELS)
     AWS_BEDROCK_REGION = os.getenv('AWS_BEDROCK_REGION', 'us-east-1')
-    AWS_ACCESS_KEY = os.getenv('AWS_ACCESS_KEY_ID','AKIA3QHPZMDPRPQHXZ5Q') # Required - remove default
-    AWS_SECRET_KEY = os.getenv('AWS_SECRET_ACCESS_KEY','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') # Required - remove default
+    AWS_ACCESS_KEY = os.getenv('AWS_ACCESS_KEY_ID','nsert_key') # Required - remove default
+    AWS_SECRET_KEY = os.getenv('AWS_SECRET_ACCESS_KEY','insert_key') # Required - remove default
     AWS_SESSION_TOKEN = os.getenv('AWS_SESSION_TOKEN') # Optional for temporary credentials
 
     # 🆕 Available Nova Models (Your Available Models)
@@ -68,7 +68,7 @@ class AIConfig:
     OCR_ENGINES = ['easyocr', 'ocr_space', 'mock']
     
     # OCR.space API Configuration
-    OCR_SPACE_API_KEY = os.getenv('OCR_SPACE_API_KEY', 'K87844805588957')  # Get free key at https://ocr.space/ocrapi
+    OCR_SPACE_API_KEY = os.getenv('OCR_SPACE_API_KEY', 'insert_key')  # Get free key at https://ocr.space/ocrapi
     OCR_SPACE_URL = 'https://api.ocr.space/parse/image'
     
     # OCR Processing Parameters
